@@ -63,7 +63,7 @@ class App extends Component {
           <div id="Waiting" ref="Waiting">Waiting for Data</div>
         </div>
         <div className="col">
-          <div className="input-group col-8">
+          <div className="input-group col-6">
             <span className="input-group-addon" id="basic-addon">http://cdn.55labs.com/demo/api.json</span>
             <input type="text" className="form-control" id="basic-url" ref='url' placeholder="Please input Data Set's Url"/>
             <button type="button" className="btn btn-primary" onClick={this.handleDataUrl} >Set Data Url</button>
